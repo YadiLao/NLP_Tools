@@ -7,7 +7,7 @@ import torch.autograd asautograd
 import torch.nn asnn
 import torch.nn.functional asF
 import torch.optim asoptim
-from LM.NeuralLM_helper import*
+from .helper import*
 
 CONTEXT_SIZE = 2
 EMBEDDING_DIM = 50
